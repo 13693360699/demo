@@ -5,5 +5,5 @@ RUN mkdir /app && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && ech
 RUN mkdir /app/configs
 RUN mkdir /app/config
 WORKDIR /app
-ADD ../target/demo-0.0.1-SNAPSHOT.jar app.jar
+ADD demo-0.0.1-SNAPSHOT.jar app.jar
 CMD java ${JAVA_OPTS} -jar app.jar
