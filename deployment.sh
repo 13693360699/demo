@@ -8,5 +8,5 @@ mv target/demo-0.0.1-SNAPSHOT.jar ./docker/
 mv deployment.yml ./docker/
 mv service.yml ./docker/
 cd docker/
-docker build -t demo:v1.0 .
+docker build -t 13693360699/demo:v1.0 .
 kubectl apply -f deployment.yml
