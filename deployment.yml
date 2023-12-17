@@ -2,7 +2,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: dev
+
 ---
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -12,7 +14,7 @@ spec:
   replicas: 3
   containers:
   - name: demo
-    image: demo:latest
+    image: demo:v1.0
     imagePullPolicy: Never
     ports:
       - containerPort: 8049
