@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: demo
-          image: 13693360699/demo:v1.0
-          imagePullPolicy: IfNotPresent
+          image: https://hub.docker.com/repositories/13693360699/demo:v1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 ---
