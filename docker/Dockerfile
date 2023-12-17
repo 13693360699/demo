@@ -1,5 +1,5 @@
 FROM java:8
-MAINTAINER liuhaiyuan
+MAINTAINER liuhaiyuan1
 EXPOSE 8049
 RUN mkdir /app && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/shanghai" > /etc/timezone
 RUN mkdir /app/configs
