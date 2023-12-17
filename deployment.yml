@@ -15,10 +15,12 @@ spec:
     spec:
       containers:
         - name: demo
-          image: https://hub.docker.com/repositories/docker/13693360699/demo:v1.0
+          image: 13693360699/demo:v1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
+      imagePullSecrets:
+        - name: mysecret
 ---
 apiVersion: v1
 kind: Service
