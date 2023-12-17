@@ -1,6 +1,6 @@
 name: 'demo'
-remark: 'test'
-namespace: 'qxc'
+remark: 'demo'
+namespace: 'def'
 env:
   - name: JAVA_OPTS
     value: '-Xms128m -Xmx128m'
