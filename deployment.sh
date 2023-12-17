@@ -10,4 +10,3 @@ mv service.yml ./docker/
 cd docker/
 docker build -t demo .
 kubectl apply -f deployment.yml
-kubectl apply -f service.yml
