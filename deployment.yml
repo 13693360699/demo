@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: demo:lastest
+          image: demo:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8049
