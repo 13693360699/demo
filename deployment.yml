@@ -19,8 +19,6 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: mysecret
 ---
 apiVersion: v1
 kind: Service
