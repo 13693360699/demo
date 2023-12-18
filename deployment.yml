@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: 192.168.88.138:1180/13693360699/demo:v1.0
+          image: 192.168.88.138:180/13693360699/demo:v1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
